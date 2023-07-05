@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.firstBanner{
+    background-image: url(img/5.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.firstContent{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;
+    width: 50%;
+}
+.firstContent h2{
+   font-size: 42px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+   padding-bottom: 10px;
+}
+.firstContent p{
+    opacity: 0.8;
+    text-align: justify;
+    margin-top: 10px;
+}
+.firstContent button{
+    background-color: orange;
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    padding: 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.firstContent button:hover{
+     background-color: blue;
+}
+
+.photogallary{
+    background-color: gray;
+
+    padding: 40px;
+}
+.photogallary h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+.photogallary img{
+    margin-top: 20px;
+    width: 250px;
+    height: 300px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+/*  form area  */
+
+.formArea{
+    text-align: center;
+    /* background-color: black; */
+    background-image: url(img/3.jpeg);
+    color: white;
+    padding: 40px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.formArea h1{
+    text-transform: capitalize;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    font-size: 42px;
+}
+.formArea form{
+    margin-top: 20px;
+}
+.formArea form input{
+    margin-top: 4px;
+    margin-bottom: 5px;
+    width: 400px;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-bottom: 2px solid yellow;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+.formArea textarea{
+    margin-top: 20px;
+    resize: none;
+    width: 400px;
+    border: none;
+    outline: none;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px solid yellow;
+    text-align: center;
+    font-size: 22px;
+}
+
+.formArea button{
+    background-color: orange;
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    padding: 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.videoArea{
+    background-color: gray;
+    padding: 20px;
+}
+.videoArea h1{
+    color: white;
+    text-align: center;
+    color: blue;
+ 
+   
+}
+.videoArea video{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+}
+small{
+     
+    font-size: 19px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
